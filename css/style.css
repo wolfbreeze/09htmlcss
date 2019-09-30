@@ -1,0 +1,130 @@
+/* index styling */
+h2 {
+    color: #00FF00;
+}
+
+body{
+    padding: 0;
+    background: whitesmoke;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: 00FF00;
+    background-color: whitesmoke;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    color: black;    
+}
+
+.nav-link:hover {
+    color: #ADD8E6;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        background-color: #00FF00;
+    } 
+
+    .navbar-brand {
+        background-color: #00FF00;
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #ADD8E6;
+    }
+
+    .nav-link {
+        background-color: white;
+    }
+
+}
+
+.col-md-7 {
+    padding: 5px;
+    background-color: white;
+    margin: 0;
+
+}
+
+.col-md-4 {
+    padding: 5px;
+    background-color: white;
+    margin: 0;
+}
+
+#image {
+    height: 175px;
+    width: 175px;
+}
+
+.visuals {
+    text-align: center;
+}
+
+#nav-header {
+    text-align: center;
+}
+
+/* Visualization pages */
+
+#graph-header {
+    text-align: center;
+}
+
+#graph-text {
+    text-align: center;
+}
+
+/* Comparison page */
+
+#image-comparison {
+    height: 400px;
+    width: 500px;
+}
+
+.col-md-6 {
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col-sm-12 {
+    background-color: white;
+    padding-top: 15px;
+}
+
+h3 {
+    color: 00FF00;
+    font-size: 22px;
+}
+
+/* Data page */
+
+.col-md-12 {
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
